@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+.container {
+  height: 100%;
+}
+.content {
+  padding: 20px 0 0;
+}
+.row {
+  position: relative;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+.header,
+.main,
+.footer {
+  min-width: 620px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  height: 65px;
+  padding: 0 20px;
+}
+.header .header-img,
+.header .header-btn {
+  width: 50%;
+  float: left;
+}
+.header .header-img img {
+  height: 65px;
+  width: 65px;
+  float: left;
+}
+.header .header-img span {
+  margin-left: 10px;
+  display: inline-block;
+  line-height: 65px;
+  font-size: 28px;
+}
+.header .header-btn button {
+  float: right;
+  margin-left: 12px;
+  margin-top: 18px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: 1px solid #d9d9d9;
+}
+.main {
+  padding: 0 25px;
+}
+.main .main-cont {
+  height: 470px;
+}
+.main .main-left,
+.main .main-right {
+  margin: 0px;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.main .main-detail {
+  margin: 60px 0 25px;
+}
+.main .main-detail span {
+  font-size: 34px;
+  font-weight: bold;
+  color: #333333;
+}
+.main .main-detail p {
+  font-size: 26px;
+  color: #666666;
+}
+.main .main-btn button {
+  outline: none;
+}
+.main .main-btn .mid-btn {
+  float: left;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #DA444A;
+  color: #333333;
+}
+.main .main-btn .mid-btn:hover {
+  border-color: #DA444A;
+  background-color: #DA444A;
+  color: #FFFFFF;
+}
+.main .main-btn .mid-btn:active {
+  border-color: #A63337;
+  background-color: #A63337;
+  color: #FFFEFE;
+}
+.main .main-btn .red-btn {
+  border-color: #DA444A;
+  background-color: #DA444A;
+  color: #fff;
+}
+.main .main-btn .red-btn:hover {
+  border-color: #BF3B40;
+  background-color: #BF3B40;
+  color: #FFFEFE;
+}
+.main .main-btn .red-btn:active {
+  border-color: #A63337;
+  background-color: #A63337;
+  color: #FFFEFE;
+}
+.main .main-btn .min-btn {
+  border-radius: 8px;
+  margin: 2px 10px;
+  padding: 8px;
+}
+.main .main-right img {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -125px;
+}
+.footer {
+  height: 65px;
+  line-height: 65px;
+  font-size: 18px;
+  text-align: center;
+}

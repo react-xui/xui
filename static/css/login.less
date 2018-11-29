@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+}
+.container{
+  height: 100%;
+}
+.content{
+  padding: 20px 0 0;
+}
+.row{
+  position: relative;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+.header , .main , .footer{
+  min-width: 620px;
+  max-width: 1200px;
+  margin:0 auto;
+}
+.header{
+  height: 65px;
+  padding: 0 20px;
+  .header-img , .header-btn{
+    width: 50%;
+    float: left;
+  }
+  .header-img{
+    img{
+      height: 65px;
+      width: 65px;
+      float: left;
+    }
+    span{
+      margin-left: 10px;
+      display: inline-block;
+      line-height: 65px;
+      font-size: 28px;
+    }
+  }
+  .header-btn{
+    button{
+      float: right;
+      margin-left: 12px;
+      margin-top: 18px;
+      padding: 5px;
+      font-size: 16px;
+      border-radius: 4px;
+      background-color: #FFFFFF;
+      border: 1px solid #d9d9d9;
+    }
+  }
+}
+.main{
+  padding: 0 25px;
+  .main-cont{
+    height:470px;
+  }
+  .main-left , .main-right{
+    margin: 0px;
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
+  .main-detail{
+    margin: 60px 0 25px;
+    span{
+      font-size: 34px;
+      font-weight: bold;
+      color: #333333;
+    }
+    p{
+      font-size: 26px;
+      color: #666666;
+    }
+  }
+  .main-btn{
+    button{
+      outline: none;
+    }
+    .mid-btn{
+      float: left;
+      margin: 0 10px;
+      padding: 10px 20px;
+      border-radius: 20px;
+      background-color: #FFFFFF;
+      border: 1px solid #DA444A;
+      color: #333333;
+      &:hover{
+        border-color: #DA444A;
+        background-color: #DA444A;
+        color: #FFFFFF;
+      }
+      &:active{
+        border-color: #A63337;
+        background-color: #A63337;
+        color: #FFFEFE;
+      }
+    }
+    .red-btn{
+      border-color: #DA444A;
+      background-color: #DA444A;
+      color: #fff;
+      &:hover{
+        border-color: #BF3B40;
+        background-color: #BF3B40;
+        color: #FFFEFE;
+      }
+      &:active{
+        border-color: #A63337;
+        background-color: #A63337;
+        color: #FFFEFE;
+      }
+    }
+    .min-btn{
+      border-radius: 8px;
+      margin: 2px 10px;
+      padding: 8px;
+    }
+  }
+  .main-right{
+    img{
+      width: 250px;
+      height: 250px;
+      position: relative;
+      top:50%;
+      left:50%;
+      margin-top: -125px;
+      margin-left: -125px;
+    }
+  }
+}
+.footer{
+  height: 65px;
+  line-height: 65px;
+  font-size: 18px;
+  text-align: center;
+}
